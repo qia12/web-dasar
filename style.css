@@ -1,0 +1,180 @@
+/*konten umum*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Quicksand',sans-serif;
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    
+}
+
+.title {
+    background-color: #f6d5ad;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    text-align: center;
+    color:#BE8C63;
+    
+}
+
+h2, h3 {
+    color: #BE8C63;
+    
+}
+
+p {
+    text-indent: 2em;
+    font-family: 'Quicksand',sans-serif;
+    text-align: justify;
+    color: black;
+   
+}
+
+#letter-spacing {
+    letter-spacing: 4cm;
+}
+
+.card {
+    box-shadow: 2px 4px 8px #BE8C63;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Konten Header*/
+.jumbotron {
+    width: 100%;
+    height: 500px;
+    
+    
+}
+
+.slider-wrapper {
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+.slide {   
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 2s linear;
+}
+
+.slider-wrapper > .slider-first-child {
+    opacity: 1;
+}
+
+/*Konten Navbar*/
+nav {
+    background-color: #BE8C63;
+    padding: 5px;
+    position:sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #E4D1B9;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    color: #E8C07D;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+/*Konten Main*/
+main {
+    padding: 20px;
+    overflow:auto; 
+    text-decoration: none;
+}
+
+.content {
+    padding: 10px;
+    width: 70%;
+    float: left;
+}
+
+/*Setting Image*/
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transition: transfrom.2s;
+    border-radius: 5px;
+}
+
+.featured-image:hover {
+    transform: scale(1.1);
+}
+header {
+    display: inline;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+/*Setting Aside*/
+aside {
+    padding: 10px;
+    width: 30%;
+    float: right;
+}
+.profile-card {
+    text-align: center;
+    box-shadow: 2px 4px 8px #BE8C63;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+}
+
+/*Setting Footer*/
+footer {
+    padding: 20px;
+    color:#E4D1B9;
+    background-color: #BE8C63;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.up-icon{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(192,192,192,0.3);
+	bottom: 40px;
+	right: 40px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+	color:#ffffff;
+}
+.fa-chevron-circle-up{font-size: 30px;line-height: 50px;color:#8FBDD3;}
+
+
